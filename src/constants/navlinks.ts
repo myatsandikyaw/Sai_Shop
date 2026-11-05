@@ -17,6 +17,10 @@ const navLinks = [
     title: 'Sign in',
     link: '/login', // localhost:3000/sign-in
   },
+  {
+    title: 'Register',
+    link: '/register', 
+  }
 ]
 
 export const authLinks = [
