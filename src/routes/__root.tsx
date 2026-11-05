@@ -1,6 +1,5 @@
 import {
   Outlet,
-  createRootRoute,
   createRootRouteWithContext,
 } from '@tanstack/react-router'
 

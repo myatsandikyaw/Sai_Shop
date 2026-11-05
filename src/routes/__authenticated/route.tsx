@@ -1,4 +1,4 @@
-import { createFileRoute, Outlet, redirect } from '@tanstack/react-router'
+import { createFileRoute,  redirect } from '@tanstack/react-router'
 import { meQueryOptions } from '@/services/auth/queries'
 import AuthLayout from '@/components/layouts/auth-layout'
 
