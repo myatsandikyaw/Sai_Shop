@@ -9,7 +9,7 @@ import { toast } from '@/components/ui/toast'
 // register
 const register = async (payload: IRegisterPayload) => {
   const response = await axios.post(
-    'http://118.27.148.199:3080/api/auth/register',
+    '/api/auth/register',
     payload,
   )
   return response.data
